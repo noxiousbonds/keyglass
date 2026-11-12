@@ -3,7 +3,7 @@
 > Windows 11 实时键盘 / 鼠标输入可视化叠加层 —— 为 **B 站直播姬「窗口捕获」** 设计。
 > Real-time keyboard & mouse input visualizer for Windows 11, built for Bilibili Live Studio.
 
-`C# / .NET 8 / WPF` · `零第三方依赖` · `自包含免安装` · `单帧 0.5ms / 空闲 CPU 0.02%` · MIT License
+[![build](https://github.com/punishernana/keyglass/actions/workflows/build.yml/badge.svg)](https://github.com/punishernana/keyglass/actions/workflows/build.yml) `C# / .NET 8 / WPF` · `零第三方依赖` · `自包含免安装` · `单帧 0.5ms / 空闲 CPU 0.02%` · MIT License
 
 Windows 11 上把**键盘按键 / 鼠标点击**实时画到屏幕上的轻量叠加层，专为 **B 站直播姬「窗口捕获」** 设计。
 
