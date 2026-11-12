@@ -20,6 +20,14 @@ Windows 11 上把**键盘按键 / 鼠标点击**实时画到屏幕上的轻量�
 
 ---
 
+## 下载（普通用户看这里）
+
+- **免安装包（61.7MB）**：[KeyGlass-v1.0.0-win-x64.zip](https://github.com/punishernana/keyglass/releases/download/v1.0.0/KeyGlass-v1.0.0-win-x64.zip)
+  解压后双击 `KeyGlass.exe`，无需安装 .NET。
+- 历史版本：[Releases](https://github.com/punishernana/keyglass/releases)
+- 想自己编译：见下文「自己构建」。
+
+> 未签名程序可能触发 SmartScreen / 杀软提示：本项目不联网、不上传数据、不注入进程，源码可查（`src/KeyGlass`）。
 ## 1. 三步开始
 
 0. **先装上**（不要放在被系统策略限制的目录里运行，见下面「已知限制」）：
