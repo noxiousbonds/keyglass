@@ -1,0 +1,24 @@
+# 构建产物
+bin/
+obj/
+dist/
+dist-fx/
+dist-single/
+artifacts/
+logs/
+scratch/
+diagnostics/
+
+# 本地工具链
+.dotnet/
+.nuget/
+.tmp/
+
+# 编辑器
+.vs/
+.vscode/
+*.user
+
+# 运行时垃圾
+*.pdb
+*.log

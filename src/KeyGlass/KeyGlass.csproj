@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>KeyGlass</AssemblyName>
+    <RootNamespace>KeyGlass</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <Version>1.0.0</Version>
+    <Product>KeyGlass 键影</Product>
+    <Description>Windows 11 实时键盘 / 鼠标输入可视化叠加层，适配 B 站直播姬窗口捕获。</Description>
+    <Company>KeyGlass</Company>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>true</SelfContained>
+    <PublishSingleFile>true</PublishSingleFile>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <EnableCompressionInSingleFile>false</EnableCompressionInSingleFile>
+    <SatelliteResourceLanguages>zh-Hans;en</SatelliteResourceLanguages>
+    <NoWarn>$(NoWarn);CA1416;WFAC010</NoWarn>
+  </PropertyGroup>
+
+  <!-- WPF + WinForms 混用时，WinForms SDK 会自动注入 System.Drawing / System.Windows.Forms
+       的 global using，导致 Brush / Pen / Color / Point / Size / ComboBox 全部歧义。
+       这里移除这两个隐式 using，需要 WinForms 类型的文件用别名显式引入。 -->
+  <ItemGroup>
+    <Using Remove="System.Drawing" />
+    <Using Remove="System.Windows.Forms" />
+  </ItemGroup>
+
+</Project>

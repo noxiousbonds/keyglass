@@ -1,0 +1,20 @@
+# 统一换行，避免 Windows 项目在 GitHub 上显示「整个文件重写」
+* text=auto eol=crlf
+
+# 脚本/源码按 CRLF 检出（Windows 环境）
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+*.cs  text eol=crlf
+*.xaml text eol=crlf
+*.csproj text eol=crlf
+*.manifest text eol=crlf
+*.sln text eol=crlf
+*.json text eol=lf
+*.md text eol=lf
+
+# 二进制
+*.png binary
+*.ico binary
+*.exe binary
+*.dll binary
+*.zip binary
