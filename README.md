@@ -3,7 +3,7 @@
 > Windows 11 实时键盘 / 鼠标输入可视化叠加层 —— 为 **B 站直播姬「窗口捕获」** 设计。
 > Real-time keyboard & mouse input visualizer for Windows 11, built for Bilibili Live Studio.
 
-[![build](https://github.com/punishernana/keyglass/actions/workflows/build.yml/badge.svg)](https://github.com/punishernana/keyglass/actions/workflows/build.yml) `C# / .NET 8 / WPF` · `零第三方依赖` · `自包含免安装` · `单帧 0.5ms / 空闲 CPU 0.02%` · MIT License
+`C# / .NET 8 / WPF` · `零第三方依赖` · `自包含免安装` · `单帧 0.5ms / 空闲 CPU 0.02%` · MIT License
 
 Windows 11 上把**键盘按键 / 鼠标点击**实时画到屏幕上的轻量叠加层，专为 **B 站直播姬「窗口捕获」** 设计。
 
@@ -22,9 +22,8 @@ Windows 11 上把**键盘按键 / 鼠标点击**实时画到屏幕上的轻量�
 
 ## 下载（普通用户看这里）
 
-- **免安装包（61.7MB）**：[KeyGlass-v1.0.0-win-x64.zip](https://github.com/punishernana/keyglass/releases/download/v1.0.0/KeyGlass-v1.0.0-win-x64.zip)
-  解压后双击 `KeyGlass.exe`，无需安装 .NET。
-- 历史版本：[Releases](https://github.com/punishernana/keyglass/releases)
+- **最新免安装包**：[Releases 页面](../../releases/latest) → 下载 `KeyGlass-*-win-x64.zip`，解压后双击 `KeyGlass.exe`（无需安装 .NET）。
+- 历史版本：[全部 Releases](../../releases)
 - 想自己编译：见下文「自己构建」。
 
 > 未签名程序可能触发 SmartScreen / 杀软提示：本项目不联网、不上传数据、不注入进程，源码可查（`src/KeyGlass`）。
